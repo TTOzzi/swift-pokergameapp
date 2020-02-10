@@ -18,7 +18,7 @@ class Card {
     }
     
     enum Shape: String, CaseIterable {
-        case heart = "♥︎", spade = "♠︎", clover = "♣︎", diamond = "♦︎"
+        case heart = "h", spade = "s", clover = "c", diamond = "d"
     }
     
     enum Rank: Int, CaseIterable {
